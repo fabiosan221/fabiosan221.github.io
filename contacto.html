@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SuperCars</title>
+        <!-- Icono Pestaña -->
+		<link rel="icon" href="img/favicon.png">
+        <!-- Estilos Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!-- Estilos Iconos -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <!-- Estilos Propios -->
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <!-- Barra navegacion -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><span class="text-warning"><i class="bi bi-car-front-fill"></i></span> SuperCars</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catálogo
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!-- Seccion contacto-->
+        <div class="container mt-5">
+            <div class="row">
+                <h1 class="text-center mb-5">Contacto</h1>
+                <div class="col-md-6 offset-md-3">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-warning">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Seccion mapa -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2404.4270379961054!2d-68.5761485480401!3d-31.541367555832245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968140fec7a646bf%3A0x3d035727b2f6bed0!2sFacultad%20de%20Ciencias%20Exactas%2C%20F%C3%ADsicas%20y%20Naturales!5e0!3m2!1ses-419!2sar!4v1684333129335!5m2!1ses-419!2sar" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>        
+        <!-- Footer -->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark-subtle mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 align-items-center">
+                        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                        </a>
+                        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Company, Inc</span>
+                    </div>
+                    <div class="col-md-6 align-self-end">
+                        <ul class="nav col-md-4 offset-md-8">
+                            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter icon-redes"></i></a></li>
+                            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram icon-redes"></i></a></li>
+                            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook icon-redes"></i></a></li>
+                        </ul>    
+                    </div>
+                </div>                                
+            </div>            
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>

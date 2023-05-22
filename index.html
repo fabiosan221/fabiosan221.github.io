@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SuperCars</title>
+        <!-- Icono Pestaña -->
+		<link rel="icon" href="img/favicon.png">
+        <!-- Estilos Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!-- Estilos Iconos -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <!-- Estilos Propios -->
+        <link rel="stylesheet" href="css/estilos.css"/>
+    </head>
+    <body>
+        <!-- Barra navegacion -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><span class="text-warning"><i class="bi bi-car-front-fill"></i></span> SuperCars</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catálogo
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+        <!-- Seccion slider -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slider/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider/3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slider/4.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Seccion Servicio -->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/V7dz9IKoCJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <h1>¿Sabés por qué nuestro servicio se destaca del resto?</h1>
+                    <p>Nuestros expertos te esperan en el taller oficial listos para despejar
+                        todas tus dudas. Tendrás la opción de presenciar el servicio
+                        o esperar cómodamente en nuestras salas de espera.
+                        Una vez finalizado el trabajo, te compartirán el diagnóstico
+                        de tu Chevrolet con el listado de repuestos reemplazados
+                        y revisados para que vuelvas a la calle tranquilo.   
+                        Conocé más detalles con nuestro video animado.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Seccion Preguntas Frecuentes -->
+        <div class="seccion-gris pb-5">
+            <div class="container ">
+                <div class="row">
+                    <div class="col">
+                        <h1 id="faq" class="text-center mt-2">Preguntas Frecuentes</h1>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    ¿Cuál es el vehículo que más se adapta a mi personalidad?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    La compra de un vehículo nuevo es una decisión importante. Por tanto, debes asegurarte de hacer la mejor adquisición. Para ello es fundamental que busques opciones, te informes sobre ellas y analices tus necesidades para escoger el tipo de vehículo que necesitas. Asimismo, es recomendable que antes de ir a un concesionario tengas una idea de cuánto puedes gastar y de cómo piensas financiar la compra.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    ¿En qué versiones se ofrece?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    El asesor comercial te indicará las versiones disponibles y lo que incluyen. Puedes preguntarle sobre las diferencias en cuanto a equipamiento, motor y caja. Hay modelos con asientos abatibles, asientos del conductor regulables en altura, eleva vidrios delanteros y traseros manuales o eléctricos, computador a bordo, manijas interiores cromadas, pantalla táctil, compatibilidad con Android Auto y Apple CarPlay, etc.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Cuál es la disponibilidad de colores?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    El color evidentemente no influye en el funcionamiento del vehículo, pero es importante para que te sientas conforme con tu compra. Por tanto, al conversar con un asesor comercial es importante que preguntes en cuáles colores está disponible el vehículo que quieres comprar.
+                                </div>
+                              </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>       
+        <!-- Footer -->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark-subtle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 align-items-center">
+                        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                        </a>
+                        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Company, Inc</span>
+                    </div>
+                    <div class="col-md-6 align-self-end">
+                        <ul class="nav col-md-4 offset-md-8">
+                            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-twitter icon-redes"></i></a></li>
+                            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-instagram icon-redes"></i></a></li>
+                            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="bi bi-facebook icon-redes"></i></a></li>
+                        </ul>    
+                    </div>
+                </div>                                
+            </div>            
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
