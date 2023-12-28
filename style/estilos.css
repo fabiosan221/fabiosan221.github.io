@@ -415,6 +415,7 @@ footer{
     color: #9d4b4b;
 }
 
+/* --------------------------------------------Media Querys--------------------------------------------*/
 /* "sm" applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     
@@ -437,8 +438,13 @@ footer{
     #logo-footer {
         max-width: 20%;
     }
+
+    .img-productos{
+        
+        max-width: 20%;
+    }
 }
-/* --------------------------------------------Media Querys--------------------------------------------*/
+
 /* "md" applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
 
@@ -458,3 +464,5 @@ footer{
 @media (max-width: 1399.98px) {
 
 }
+/* --------------------------------------------Media Querys--------------------------------------------*/
+
