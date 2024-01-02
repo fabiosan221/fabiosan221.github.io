@@ -97,6 +97,14 @@ a.active{
     box-shadow: 0px 1px 8px 0px rgba(157,75,75,1);    
     /* box-shadow: 0px 1px 8px 1px rgba(145,143,145,1); Negro */
 }
+
+.card-producto-movil{
+    border: none;
+}
+
+.img-producto-movil{
+    box-shadow: 0px 0px 15px 0px rgba(157,75,75,1);    
+}
 /* --------------------------------------------Tarjetas productos-------------------------------------------- */
 
 /* --------------------------------------------Degrade Productos-------------------------------------------- */
@@ -284,6 +292,11 @@ footer{
 .iconos-slider{
     font-size: 3rem;
     color: #9d4b4b;
+}
+
+.iconos-slider-movil{
+    font-size: 3rem;
+    color: #D4748D;
 }
 
 .iconos-sucursales{
