@@ -229,7 +229,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn-bordo:hover{
-    border: 2px solid #9d4b4b;
+    background-color: #EDC0BB;
+    border: 1px solid #EDC0BB;
 }
 
 .carousel-indicators [data-bs-target] {
